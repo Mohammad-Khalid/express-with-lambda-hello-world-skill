@@ -6,8 +6,10 @@
     Clone this [hello world skill](https://github.com/alexa/skill-sample-nodejs-hello-world.git)
 
 ### Add express-server.js file
-> Create a express-server.js inside lambda/custom/
-> Add following code in it.
+
+1. Create a express-server.js inside lambda/custom/
+2. Add following code in it.
+
 `'use strict'
 const express = require('express'),
       bodyParser = require('body-parser'),
@@ -29,8 +31,9 @@ module.exports = app;`
 ### Install Claudia and configure AWS credential
     `npm install -g claudia`
 
-1.Create an AWS profile with IAM full access, Lambda full access and API Gateway Administrator privileges.
-2.Add the keys to your .aws/credentials file
+1. Create an AWS profile with IAM full access, Lambda full access and API Gateway Administrator privileges.
+2. Add the keys to your .aws/credentials file
+
 `[claudia]
 aws_access_key_id = YOUR_ACCESS_KEY
 aws_secret_access_key = YOUR_ACCESS_SECRET`
@@ -63,7 +66,9 @@ The command printed the following response:
 Now test our express-lambda service is working or not by copying the printed url in your terminal, test it with postman, the API should return 'Hello World!'
 
 ## Step 3 :
-> Replace `express-server.js` code with following:
+
+ Replace `express-server.js` code with following:
+
 `'use strict'
 const express = require('express'),
       bodyParser = require('body-parser'),
