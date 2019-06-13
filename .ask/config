@@ -1,9 +1,19 @@
 {
   "deploy_settings": {
-    "default": {
-      "skill_id": "",
+    "mohdkhalid": {
+      "skill_id": "amzn1.ask.skill.236f81d2-1f0e-461c-bc15-b6e7f5efdde6",
       "was_cloned": false,
-      "merge": {}
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "7d8c7c246277577eef175b6e1508efab"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "29e76c859fb47be44a7ee2b40d837699"
+          }
+        }
+      }
     }
   }
 }

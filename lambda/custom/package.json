@@ -2,14 +2,16 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "express-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ask-sdk-core": "^2.0.0",
-    "ask-sdk-model": "^1.0.0"
+    "ask-sdk-core": "^2.6.0",
+    "ask-sdk-model": "^1.16.0",
+    "aws-serverless-express": "^3.3.6",
+    "express": "^4.17.1"
   }
 }
